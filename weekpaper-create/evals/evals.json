@@ -1,0 +1,11 @@
+{
+  "skill_name": "weekpaper-create",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "生成这周的周报，从当前分支拉取最近一周的代码提交记录，整理并总结10条有意义的工作内容",
+      "expected_output": "包含10条左右工作内容的周报，使用Markdown格式输出，每条内容清晰描述完成的工作",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "daypaper-create",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "生成今天的日报",
+      "expected_output": "根据当天的 git 提交记录生成 5 条不重复的工作内容，以 Markdown 格式输出，包含今日工作内容和工作总结两个部分",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我写一下今天的日报",
+      "expected_output": "根据当天的 git 提交记录生成 5 条不重复的工作内容，以 Markdown 格式输出",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "生成日报，需要包含新功能、Bug修复和代码重构",
+      "expected_output": "根据当天的 git 提交记录生成 5 条不重复的工作内容，涵盖新功能、Bug修复和代码重构三类，以 Markdown 格式输出",
+      "files": []
+    }
+  ]
+}
